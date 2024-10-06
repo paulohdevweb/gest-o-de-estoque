@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+    text-align: center;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label,
+.login-container input {
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+  }
+
+li{
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff; /* Cor de fundo azul */
+        color: white; /* Cor do texto branca */
+        border: none;
+        border-radius: 4px; /* Bordas arredondadas */
+        cursor: pointer;
+        text-decoration: none; /* Remove o sublinhado do link */
+        transition: background-color 0.3s; /* Transição suave na mudança de cor */
+    }
+    
+    .button:hover {
+        background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+    }
+}
+
+body{
+    background-color: aquamarine;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .sessao1, .sessao2 {
+    margin-bottom: 40px;
+  }
+
+
+
+.form-container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label,
+.form-container input {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.vencido {
+    color: red;
+    font-weight: bold;
+}
+
+body {
+
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.container__config {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo comum para os botões */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+    border: none;
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer;
+    text-decoration: none; /* Remove o sublinhado do link */
+    transition: background-color 0.3s; /* Transição suave na mudança de cor */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8%;
+    font-weight: bold;
+}
+
+input {
+    width:100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.back-button {
+    background-color: #6c757d;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+}
+
+section.backup {
+    text-align: center;
+}
+
+
+ul{
+    margin: 20px;
+    list-style-type: none;
+}
+
+body {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container do formulário com sombra e bordas arredondadas */
+.login-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título centralizado */
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+/* Agrupamento dos inputs */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Estilização das labels */
+.login-container label {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    color: #555;
+    font-size: 14px;
+    
+}
+
+/* Estilização dos inputs */
+.login-container input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Efeito de foco nos inputs */
+.login-container input:focus {
+    border-color: #9b59b6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(155, 89, 182, 0.5);
+}
+
+/* Botão estilizado */
+.login-container button {
+    width: 100%;
+    margin-top: 35px;
+    padding: 12px;
+    background-color: #9b59b6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito hover no botão */
+.login-container button:hover {
+    background-color: #8e44ad;
+}
+
+/* Mensagem de erro estilizada */
+.error {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-size: 14px;
+}
+
+header{
+    margin-top: 5%;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 22px;
+}
+
+body{
+    background-color:aqua;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+li{
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff; /* Cor de fundo azul */
+        color: white; /* Cor do texto branca */
+        border: none;
+        border-radius: 4px; /* Bordas arredondadas */
+        cursor: pointer;
+        text-decoration: none; /* Remove o sublinhado do link */
+        transition: background-color 0.3s; /* Transição suave na mudança de cor */
+    }
+    
+    .button:hover {
+        background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+    }
+}
+
+
+li{
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+li :hover{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tab{
+    margin-top: 20px;
+    margin-left: 18%;
+    
+}
+
+table {
+    border-collapse: collapse;
+        
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(#00000001, #00000063), url(supermercado2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+}
+
+header{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    border-radius: 48%;
+    height: 90px;
+    width: 90px;
+
+}
+
+.container__principal{
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover {
+    background-color: rgb(15, 220, 220);
+}
+
+li a:hover{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    transition: 0.6s;
+
+}
+
+
+body {
+    background-color: rgb(17, 230, 230);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.back-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+.form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
